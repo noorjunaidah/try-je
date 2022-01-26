@@ -1,0 +1,67 @@
+.header h1{
+  padding: 80px; 
+ 
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    background-image: url('https://i.pinimg.com/564x/fe/80/78/fe80787331b1ba570fde20a2225e93ed.jpg');
+    position: sticky;
+    top:0;
+  
+}
+.navbar ul{
+    display:flex;
+    list-style:none;
+    margin:20px 0px;
+}
+
+.navbar ul li{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:blue;
+    padding:8px 25px;
+    transition:all .5s ease;
+}
+
+.navbar ul li a:hover{
+   background-color:grey;
+   color:purple;
+   box-shadow: 0 0 10px white;
+   
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #ccccff;/* Grey background color */
+  padding: 20px; /* Some padding */
+  border-style: double;
+  font-size: 12px;
+  font-family: roboto;
+
+ 
+}
+ 
+.main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: #b3e6ff;/* White background color */
+  padding: 20px; /* Some padding */
+  border-style: double;
+ }
+
+
+
